@@ -1,0 +1,1 @@
+transprod.to_csv("trans_prod.csv",index=False)

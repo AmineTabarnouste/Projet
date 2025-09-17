@@ -1,0 +1,18 @@
+id_transaction
+id_Produit
+description
+quantity
+date_transaction
+prix
+id_client
+pays_client
+
+produit=>
+id_produit->desi_produit,description,prix
+
+client=>
+id_client->nom_client+prenom_client(facultatif dans ce cas),pays_client
+transcation=>
+id_client(une transaction concerne un client),produit(s)(une transaction contient un ou des produits),date_trans
+id_transcation,id_produit->quantite
+
